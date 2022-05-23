@@ -14,6 +14,7 @@ Coming soon!
 ## Cite
 Paper coming soon on arXiv.
 Look for:
+```
 title = "ALTO: A Large-Scale Dataset for UAV Visual Place Recognition and Localization" 
 author = "Ivan Cisneros, Peng Yin, Ji Zhang, Howie Choset, Sebastian Scherer"
-
+```
