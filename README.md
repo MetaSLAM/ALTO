@@ -1,4 +1,4 @@
-# ALTO (**A**erial-view Large-scale Terrain-Oriented) dataset
+# ALTO (Aerial-view Large-scale Terrain-Oriented) dataset
 Repository for the ALTO dataset for deep learning based UAV visual place recognition and localization tasks.
 
 
@@ -12,8 +12,8 @@ Coming soon!
 
 
 ## Cite
-Paper coming soon on arXiv.
-Look for:
+!! Paper coming soon on arXiv !! <br />
+Look for: <br />
 ```
 title = "ALTO: A Large-Scale Dataset for UAV Visual Place Recognition and Localization" 
 author = "Ivan Cisneros, Peng Yin, Ji Zhang, Howie Choset, Sebastian Scherer"
