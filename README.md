@@ -1,4 +1,4 @@
-# ALTO (Aerial-view Large-scale Terrain-Oriented) dataset
+# ALTO (**A**erial-view Large-scale Terrain-Oriented) dataset
 Repository for the ALTO dataset for deep learning based UAV visual place recognition and localization tasks.
 
 
