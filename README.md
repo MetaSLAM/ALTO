@@ -77,9 +77,15 @@ unzip ge_images_split.zip
 
 
 ## Cite
-!! Paper coming soon on arXiv !! <br />
-Look for: <br />
-```
-title = "ALTO: A Large-Scale Dataset for UAV Visual Place Recognition and Localization" 
-author = "Ivan Cisneros, Peng Yin, Ji Zhang, Howie Choset, Sebastian Scherer"
+If you use this dataset in your research, please cite:
+
+Paper: [arXiv](https://arxiv.org/abs/2207.12317)
+
+```bibtex
+@article{cisneros2022alto,
+  title = {ALTO: A Large-Scale Dataset for UAV Visual Place Recognition and Localization},
+  author = {Cisneros, Ivan and Yin, Peng and Zhang, Ji and Choset, Howie and Scherer, Sebastian},
+  journal = {arXiv preprint arXiv:2207.12317},
+  year = {2022}
+}
 ```
