@@ -4,8 +4,8 @@ Just run it:
 
     python download.py
 
-It downloads everything (~280 GiB) into ./ALTO, keeping the query/ and
-reference/ folder layout. Files are fetched a few at a time in parallel, which is
+It downloads everything (~280 GiB) into the current folder, as query/ and
+reference/ subfolders. Files are fetched a few at a time in parallel, which is
 much faster than one at a time because the server caps the speed of each
 connection.
 
@@ -30,7 +30,7 @@ ENDPOINT_URL = (
     "AUTH_ac8533a83cff4d48bc8c608ad222d330"
 )
 BUCKET_NAME = "ALTO"
-OUTPUT_DIR = "./ALTO"
+OUTPUT_DIR = "."   # writes ./query/... and ./reference/... here
 WORKERS = 4        # parallel downloads. The server caps each connection, so a
                    # few at once is ~3x faster. Raise it if your link is fast.
 MAX_RETRIES = 20   # per file, across dropped connections

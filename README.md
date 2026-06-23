@@ -20,10 +20,10 @@ Requires Python 3 and `boto3` (`pip install boto3`). Then just run:
 python download.py
 ```
 
-Downloads all 29 files (~280 GiB) into `./ALTO`: `query/` as 19 volumes
-(`.z01`...`.z18` plus `.zip`) and `reference/` as 10 (`.z01`...`.z09` plus `.zip`). It
-fetches a few files in parallel and is resumable — re-run it to skip finished files and
-continue partial ones.
+Downloads all 29 files (~280 GiB) into `query/` and `reference/` folders here: `query/`
+is 19 volumes (`.z01`...`.z18` plus `.zip`), `reference/` is 10 (`.z01`...`.z09` plus
+`.zip`). It fetches a few files in parallel and is resumable — re-run it to skip finished
+files and continue partial ones.
 
 ### Extracting the archives
 
