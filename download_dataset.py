@@ -14,7 +14,7 @@ from botocore.exceptions import BotoCoreError, ClientError
 # S3 configuration
 BUCKET_NAME = "ALTO"
 ENDPOINT_URL = "https://airlab-cloud.andrew.cmu.edu:8080/swift/v1/AUTH_ac8533a83cff4d48bc8c608ad222d330"
-PREFIX_CHOICES = ["query", "reference"]
+PREFIX_CHOICES = ["query", "reference", "metadata"]
 CHUNK_SIZE = 8 * 1024 * 1024
 MAX_RETRIES = 20
 MAX_RETRY_DELAY_SECONDS = 60
@@ -63,6 +63,11 @@ DATASET_FILES: Dict[str, List[str]] = {
         "reference/ge_images_split.z08",
         "reference/ge_images_split.z09",
         "reference/ge_images_split.zip",
+    ],
+    "metadata": [
+        "metadata/README.md",
+        "metadata/camera.yaml",
+        "metadata/image_camera_poses.csv",
     ],
 }
 
